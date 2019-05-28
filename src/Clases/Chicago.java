@@ -27,6 +27,15 @@ public class Chicago implements Ruedas {
 
     @Override
     public int MostrarGanancias() {
-        return 0;
+            int cont=0;
+            for (int i=0;i<24;i++){
+                for (int j=0;j<2;j++){
+                    if (asientos[i][j]==true){
+                        cont++;
+                    }
+                }
+            }
+            cont= cont*this.precio;
+        return cont;
     }
 }

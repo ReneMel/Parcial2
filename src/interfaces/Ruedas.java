@@ -11,7 +11,6 @@ public interface Ruedas{
      void MostrarAsientos();
      int MostrarGanancias();
 
-     
 
 
 }
